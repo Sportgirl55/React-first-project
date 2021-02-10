@@ -1,0 +1,15 @@
+
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.post__wrap {
+  display: flex;
+}
+
+.post img {
+  width: 50px;
+  border-radius: 25px;
+}
+

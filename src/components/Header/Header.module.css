@@ -1,0 +1,10 @@
+
+.header {
+  grid-area: header;
+  /* background: linear-gradient(to top, #0af541, #93a4f8); */
+  background: #A8D8EA;
+}
+
+header img {
+  max-height: -webkit-fill-available;
+}
