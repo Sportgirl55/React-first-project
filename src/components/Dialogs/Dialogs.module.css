@@ -5,19 +5,29 @@
 
 .dialogItems {
   padding: 10px;
+
 }
 
 .dialog {
   padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .messages {
+
 }
 
 .message {
+
 }
 
 
 .active {
   color: gold;
+}
+
+.post__thumb img {
+  width: 50px;
+  border-radius: 25px;
 }
