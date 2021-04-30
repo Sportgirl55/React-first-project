@@ -1,6 +1,6 @@
 
 import React from 'react';
-import MyPosts from './MyPosts/MyPosts';
+import MyPostsContainer from './MyPosts/MyPostsContainer';
 import s from './Profile.module.css';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 
@@ -9,9 +9,7 @@ const Profile = (props) => {
   return (
     <div className={s.content}>
       <ProfileInfo />
-      <MyPosts postsArray={props.profilePage.postsArray}
-        newPostText={props.profilePage.newPostText}
-        dispatch={props.dispatch} />
+      <MyPostsContainer />
     </div>
   )
 }
